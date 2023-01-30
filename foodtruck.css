@@ -1,0 +1,392 @@
+/* index page css/home page css starts here */
+
+
+.topnav {
+    overflow: hidden;
+    background-color: white;
+}
+.topnav a {
+    float: left;
+    color: #010101;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 30px 30px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.topnav-right {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* css for logo */
+
+.logo img {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 0;
+    content: "";
+    margin-left: -160px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+/* css for image */
+
+img {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    height:85vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/* css for header(h1) */
+
+.center {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 25px;
+}
+
+/* css for header(h2) */
+
+.center1 {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+}
+.center2 {
+    position: absolute;
+    top: 71%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+}
+
+/* css for button */
+
+.button {
+    background-color: black;
+    position: relative;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+
+    cursor: pointer;
+    text-decoration: none;
+    margin: -5px;
+
+    top: 70%;
+    left: 50%;
+    background-color: rgb(14, 14, 15);
+    /* blue */
+    border: none;
+    color: rgb(253, 247, 247);
+
+    text-align: center;
+
+    display: inline-block;
+    font-size: 16px;
+
+    cursor: pointer;
+    width: 150px;
+    height: 30px;
+
+
+
+}
+
+/* Menu css start here */
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+  padding: 1px;
+}
+
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    
+}
+/* Clear floats after the columns */
+
+.row ::after{
+    content: "";
+    clear: both;
+    display:table;
+
+}
+
+/* Events CSS start here */
+
+ /* Styling the body */
+ body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling section, giving background
+image and dimensions */
+section {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+/* Styling the left floating section */
+section .leftBox {
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+/* Styling the background of
+left floating section */
+section .leftBox .content {
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    transition: .5s;
+}
+
+/* Styling the hover effect
+of left floating section */
+section .leftBox .content:hover {
+    background: #e91e63;
+}
+
+/* Styling the header of left
+floating section */
+section .leftBox .content h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+/* Styling the paragraph of
+left floating section */
+section .leftBox .content p {
+    margin: 10px 0 0;
+    padding: 0;
+}
+
+/* Styling the three events section */
+section .events {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    float: right;
+    box-sizing: border-box;
+}
+
+/* Styling the links of
+the events section */
+section .events ul {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+/* Styling the lists of the event section */
+section .events ul li {
+    list-style: none;
+    background: #fff;
+    box-sizing: border-box;
+    height: 200px;
+    margin: 15px 0;
+}
+
+/* Styling the time class of events section */
+section .events ul li .time {
+    position: relative;
+    padding: 20px;
+    background: #262626;
+    box-sizing: border-box;
+    width: 30%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    transition: .5s;
+}
+
+/* Styling the hover effect
+of events section */
+section .events ul li:hover .time {
+    background: #e91e63;
+}
+
+/* Styling the header of time
+class of events section */
+section .events ul li .time h2 {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 60px;
+    line-height: 30px;
+}
+
+/* Styling the texts of time
+class of events section */
+section .events ul li .time h2 span {
+    font-size: 30px;
+}
+
+/* Styling the details
+class of events section */
+section .events ul li .details {
+    padding: 20px;
+    background: #fff;
+    box-sizing: border-box;
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+
+/* Styling the header of the
+details class of events section */
+section .events ul li .details h3 {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+}
+
+/* Styling the lists of details
+class of events section */
+section .events ul li .details p {
+    position: relative;
+    margin: 10px 0 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+/* Styling the links of details
+class of events section */
+section .events ul li .details a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1.5px solid #262626;
+    margin-top: 8px;
+    font-size: 18px;
+    transition: .5s;
+}
+
+/* Styling the details class's hover effect */
+section .events ul li .details a:hover {
+    background: #e91e63;
+    color: #fff;
+    border-color: #e91e63;
+}
+
+/* contact details css start here */
+
+
+
+* {
+    margin: 0px;
+    padding: 1px;
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column3 {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    height:100vh; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
+/* Schedule CSS starts here */
+
+  .openinghours {
+    font-family:Lucida Console;
+    border-radius:4px;
+    margin:10px;
+    box-shadow: 0 0 10px black;
+    padding:0 10px 0 10px;
+    overflow: hidden;
+    display: inline-block;
+}
+.openinghourscontent {
+    float:left;
+}
+.openinghourscontent h2 {
+    display:block;
+    text-align:center;
+    margin-top:.33em;
+}
+
+.opening-hours-table tr td:first-child {
+    font-weight:bold;
+}
+#open-status {
+    display:block;
+    margin-top:-1em;
+    text-align:center;
+    border:dotted lightgrey 3px;
+}
+.openorclosed:after {
+    content:" open during these hours:";
+}
+
+
+
+.opening-hours-table tr td {
+    padding:5px;
+}
+  
+
